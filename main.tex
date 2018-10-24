@@ -1,0 +1,59 @@
+%\documentclass[english, a4paper, draft]{article}
+\documentclass[english, a4paper]{article}
+
+\usepackage{mystyles}
+
+% VARIABLES
+\newcommand{\hardwarerevision}{2.0.0}
+
+\begin{document}
+
+\selectlanguage{english}
+
+% TITLE PAGE
+\begin{titlepage}
+  \centering
+  \includegraphics[width=.2\linewidth]{./img/logo_kuehlingkuehling.png}
+  \par\vspace{1cm}
+  \par\Huge HT500.3 User's Manual
+  \par\vspace{1cm}
+  \par\large Hardware Revision \hardwarerevision
+  \par\vspace{3cm}
+  \includegraphics[width=.7\linewidth]{./img/ht500_freigestellt.jpg}
+  \vfill
+  \par\large Published \today
+\end{titlepage}
+
+% LICENSE INFORMATION
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+\vfill
+\input{license}
+
+% TABLE OF CONTENTS
+\clearpage
+\pagenumbering{arabic}
+\tableofcontents
+
+% MANUAL CONTENT
+\clearpage
+\pagenumbering{arabic}
+\input{general}
+\input{safety}
+\input{description}
+\input{transport-installation}
+\input{initial-commissioning}
+\input{operation}
+\input{service-guide}
+\input{downloads}
+\input{knowledge-base}
+\input{technical-data}
+
+% QUICK START GUIDE
+\clearpage
+\pagenumbering{arabic}
+\renewcommand*{\thepage}{Q-\arabic{page}}
+\input{quick-start-guide}
+
+\end{document}

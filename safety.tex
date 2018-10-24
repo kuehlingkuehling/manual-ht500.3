@@ -1,0 +1,146 @@
+\section{Safety}
+
+
+
+\subsection {Personnel safety and device reliability}
+
+The HT500.3 features state-of-the-art design and construction and has been built and tested thoroughly so that it is safe and ready to use at delivery. Nonetheless, hazardous situations may appear due to the production process itself and property damage may be caused by false operation.
+
+\emph{The risk of experiencing hazardous situations is increased by:}
+
+\begin{itemize}
+  \item Using the HT500.3 for other applications than the intended.
+  \item Inappropriate usage of the 3D Printer.
+  \item Operating the 3D Printer in a non-safe state or under improper conditions.
+  \item Insufficient attention, lax handling or intensive soiling.
+\end{itemize}
+
+\emph{Therefore:}
+\begin{itemize}
+  \item Use the HT500.3 for its intended use only.
+  \item The HT500.3 must be in goor working order and in a safe state at any time. Check the apparatus prior to every commissioning
+        and at regular intervals for wear, damage and cleanliness.
+  \item Ensure that nobody can be injured by parts of the 3D Printer.
+  \item Fix any error condition or visible damage immediately. If prompt rectification is impossible, 
+        decommission the 3D Printer and do not put it back to use unless all problems have been solved.
+  \item Regard the local accident prevention regulation.
+  \item Provide access to the operating manual for anybody operating the machine.
+\end{itemize}
+
+\begin{info}
+  The manufacturer cannot be held liable for injuries and damages due to inappropriate usage of the HT500.3.
+  Inappropriate usage of the HT500.3 voids the manufacturer's warranty.
+\end{info}
+
+
+
+\subsection{Injury risks}
+
+Some hazards are design related and cannot be avoided by mere constructive measures. To avoid injuries it is necessary that the operator is aware of such situations and takes adequate care. It is the owners responsibility to ensure that every user of the 3D Printer is informed about risks and preventions and that the safety precautions are observed. Access to this manual must be provided at all times.
+The safety advice given in the following is meant to protect the operator of the HT500.3.
+
+
+\subsubsection{Electrical safety}
+
+The HT500.3 is operated with 110 to 230 V (DC). 
+Touching current-carrying parts can be \emph{life-threatening} and cause \emph{severe injuries}.
+
+\begin{itemize}    
+  \item Only connect the 3D Printer in accordance with the specifications given in the data sheet.
+  \item Works on the electrical equipment of the HT500 and on the power supply system may \emph{only} be carried out by skilled electricians.
+  \item Always disconnect the 3D Printer from the power supply by switching the main switch off and removing the mains plug from the socket 
+        before carrying out maintenance, repair or cleaning.
+  \item Check the condition of cables and isolations at regular intervals and replace damaged parts immediately.
+  \item Do not setup and operate the 3D Printer in a humid environment.
+\end{itemize}
+
+
+\subsubsection{Hot surfaces}
+
+Outer surfaces of the HT500.3 are adequately isolated and do not exceed temperatures of +40\degree C (104\degree F). They are safe to the touch at any time.
+Inside the build chamber, the heating elements generate the necessary ambient temperature for warp-free printing.
+Depending on the processed material, surfaces inside the build chamber can \emph{reach temperatures up to +70\degree C (158\degree F)}.
+The print table is heated separately, also to minimize warpage. It can \emph{reach temperatures up to 130\degree C (266\degree F)}.
+The extruder nozzles are heated to melt the filament strands and may \emph{reach temperatures of 500\degree C (932\degree F)}.
+
+Touching heated components may lead to grade 1 burning injuries, in case of the nozzles of grade 2 of limited size.
+
+To avoid burning injuries:
+
+\begin{itemize}
+  \item \emph{Do not open} the build chamber during or immediately after completion of a print job.
+  \item \emph{Always switch off} the preheating and wait until the print bed temperature indicated on the touchscreen 
+        has dropped below 50\degree C (122\degree F) 
+        before removing the print bed. This is also to avoid stress cracks due to sudden temperature drop.
+  \item Some tasks require handling at operating temperature. Wear adequate protective gloves when handling 
+        hot components.
+  \item Observe the procedures and waiting times stated in this manual.
+\end{itemize}
+
+
+\subsubsection{Coolant}
+
+For proper operation the HT500.3 is equipped with a closed loop low-maintenance cooling system that needs little interference. The circuit is filled with coolant type \emph{Innovatek Protect IP ready-to-use}.
+If it is necessary to perform works on the cooling system, such as refilling coolant or exchanging defective hoses, avoid direct skin or eye contact. Always wear \emph{adequate protective gloves} that are resistant to chemical substances (e.g. PVC, NBR).
+Observe the information provided in the manufacturer's safety data sheet.
+Additional information concerning the cooling system and required maintenance can be found in the Service Guide.
+
+
+\subsubsection{Noise}
+
+The HT500.3 3D Printer is build to be operated in a professional environment such as workshops and laboratories. It is not suited for the operation in an office. During print jobs, it does not exceed 60dB(A), which is considered “unauspicious” for long-term exposure.
+Special noise protection equipment is not required.
+
+
+\subsubsection{Fumes}
+
+Molten plastics may emit unpleasantly smelling fumes. Such fumes can be \emph{perilous}.
+It is vitally important not to exceed the temperature limits stated for a printed material. Overheating is indicated by discoloration and coking.
+
+
+\subsubsection{Emergency stop}
+
+You will find a red \emph{Emergency STOP} button in the top-right corner of the touchscreen. In case of any unexpected performance of the 3D Printer, press this button to immediately stop any mechanical movement in the build chamber and to shut down all heater elements.
+
+\begin{notice}
+  The emergency stop function does not provide a cool down sequence. Do not use the emergency stop button to abort current print jobs, because this may lead to damage of the 3D Printer due to uncontrolled heat accumulation.
+  Do not use the main switch as an emergency stop button. You risk loosing or corrupting data. 
+\end{notice}
+
+When the emergency stop is triggered, the microcontroller board responsible for the stepper motors, heaters and sensors is reset immediately and returns to idle state afterwards. Now it is safe to resolve any problems or defects in the build chamber.
+
+The build chamber can then be reactivated via the \lbrack Print\rbrack  menue.
+Detailed information are provided in the Operating manual. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.7\linewidth]{./img/gui_v110_emergencystop.png}
+  \caption{The emergency stop button in the top-right corner of the GUI will immediately stop all movement and set the 3D Printer in a safe 
+           state for troubleshooting.}
+\end{figure}
+
+
+\subsubsection{Operator qualification}
+
+Operating and service personnel must be familiar with the information provided in the manual. Special training and qualification are not required for operating the 3D Printer. Works on the electrical equipment and connections of the 3D Printer require profound knowledge of electrics and electronics.
+
+
+\subsubsection{Personal protective equipment}
+
+During normal operation it is not necessary to wear special protective gear. Some tasks however should not be performed without taking protective measures. Situations that require protective equipment are specially indicated. It is the owner's obligation to provide adequate protective equipment.
+
+
+\subsubsection{Product reliability}
+
+False handling of components can lead to loss of production due to property damage; therefore we strongly recommend following the information given in this manual.
+
+
+\subsubsection{Print head nozzles}
+
+The stainless steel print head nozzles are sensitive to heat treatment and mechanical strain.
+If the nozzles or extruder barrels are clogged by congealed material, reheating during the normal production flow is utterly sufficient to clear them in most cases.
+In case you want to change the material type or clogging is effected by foreign particles (i.e. dust grains dragged along with the filament), it is necessary to remove congealed material from the nozzles. The corresponding description can be found in the cleaning recommendation.
+
+\begin{notice}
+  Do not use mechanical tools or open flames to remelt or remove residues in the nozzles. Overheating may induce easing of tensions and deformation. The nozzle is then no longer usable for printing.
+\end{notice}

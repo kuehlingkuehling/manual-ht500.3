@@ -1,0 +1,7 @@
+*.gz
+*.log
+*.aux
+output/
+*.toc
+img/vorlagen/
+*.pdf

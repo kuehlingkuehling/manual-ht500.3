@@ -1,0 +1,67 @@
+\ProvidesPackage{mystyles}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,ngerman]{babel}
+
+\usepackage[paper=a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{mdframed}
+
+\usepackage{tabulary}
+\setlength\tymin{40pt}
+\setlength\tymin{120pt}
+
+\usepackage{threeparttable, booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+
+\usepackage{enumitem}
+
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{float}
+
+% links in table of contents
+\usepackage[colorlinks,
+pdfpagelabels,
+pdfstartview = FitH,
+bookmarksopen = true,
+bookmarksnumbered = true,
+hidelinks,
+plainpages = false,
+hypertexnames = false,
+citecolor = black,
+draft = false]{hyperref}
+
+\newenvironment{info}
+  {\par\begin{mdframed}[linewidth=1pt,linecolor=black]%
+    INFO\\}
+  {\end{mdframed}\par}
+
+\newenvironment{notice}
+  {\par\begin{mdframed}[linewidth=1pt,linecolor=blue]%
+    NOTICE!\\}
+  {\end{mdframed}\par}
+
+\newenvironment{caution}
+  {\par\begin{mdframed}[linewidth=1pt,linecolor=yellow]%
+    CAUTION!\\}
+  {\end{mdframed}\par}
+
+\newenvironment{warning}
+  {\par\begin{mdframed}[linewidth=1pt,linecolor=orange]%
+    WARNING!\\}
+  {\end{mdframed}\par}
+
+\newenvironment{danger}
+  {\par\begin{mdframed}[linewidth=1pt,linecolor=red]%
+    DANGER!\\}
+  {\end{mdframed}\par}  
+
+\newenvironment{use responsibly}
+  {\par\begin{mdframed}[linewidth=1pt,linecolor=green]%
+    USE RESPONSIBLY!\\}
+  {\end{mdframed}\par}    
