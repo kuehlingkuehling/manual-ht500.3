@@ -5,3 +5,4 @@ output/
 *.toc
 img/vorlagen/
 *.pdf
+*.out
