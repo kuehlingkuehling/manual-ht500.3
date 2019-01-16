@@ -18,27 +18,30 @@ After the installation the HT500.3 is ready for initial commissioning. The first
 First, material for the following print jobs must be provided:
 
 \begin{itemize}
-  \item Go to the [Expert Control] screen and tap [Maintenance Position] to move the print head to a middle front position for convenient handling.
-  \item Refer to the Operation manual for detailed instructions on loading Filament into the machine step by step.
+  \item Go to the [Expert Control] screen and tap [Maintenance Position] to move the print head to a middle front 
+        position for convenient handling.
   \item Load the \emph{left extruder} with Kühling\&Kühling ABS material included 
-        in the delivery for the first print.
-
+        in the delivery for the first print.        
+  \item Install the filament spool onto the corresponding spool carrier like shown in the description of the filament supply, section \ref{sec:filamentsupply}
   \begin{info}
     For installing other than the 750g spools delivered, adjusting the spool carriers may be necessary.
     The filament and chamber/bed profiles have been preset during factory test and are ready for use. For later changing the profiles refer to Configuration.
-  \end{info}
-
-  \item Choose the left extruder and check that the filament profile Kühling\&Kühling 
-        white ABS is selected before continuing.
+  \end{info}        
+  \item Feed the end of the filament strand into the filament supply unit from below (passing through the cleaning sponge) 
+        until it reaches the print head through its PTFE tube.
+  \item At the print head, pull the PTFE tube out of the idler lever so you can grab the filament. Insert the filament through
+        the idler lever from the top. Open a gap between the extruder drive gear and the idler bearing by pushing the lever down.
+        Push the filament further down, passing the drive gear and entering the nozzle bore below.
+  \item Slide the PTFE tube back into the idler lever so it is seated in there.
+  \item In the [Configuration] screen select the corresponding filament profile with a suitable melting temperature for your material.
+  \item Go to the [Expert Control] screen, select the extruder you have just loaded, check the suggested temperature
+        and tap [SET] in order to preheat the print head. As soon as the target temperature is reached in the nozzle, buttons for
+        [extrude] and [retract] are activated.
+  \item When preheated, use [extrude] to successively push material through the print head. Each tap will forward the filament
+        by 5mm. As soon as you see a consistent flow of molten plastic out of the nozzle, loading is finished.
+  \item Switch of the nozzle heater by tapping [OFF].
   \item Repeat these steps for loading the right extruder if required.
 \end{itemize}
-
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=.7\linewidth]{./img/gui_primext_1_v110.png}
-  \caption{Display of the selected filament profile after extruder selection.}
-\end{figure}
 
 
 \subsection{Preheating}
